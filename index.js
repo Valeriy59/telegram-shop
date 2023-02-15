@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 
 // replace the value below with the Telegram token you receive from @BotFather
 const token = '5643604088:AAGD17t3OJBAUm3DDldg6KgTdJIVNmDU9pk';
-const webAppUrl = 'https://ya.ru'
+const webAppUrl = 'https://valeronski-tg-shop.netlify.app/'
 
 // Create a bot that uses 'polling' to fetch new updates
 const bot = new TelegramBot(token, {polling: true});
